@@ -7,7 +7,7 @@ const sum = (numbers) => {
     if (isNaN(current)) {
       throw new TypeError("Not a number");
     }
-    return previous + current;
+    return previous - current;
   }, 0);
 
   return total;
